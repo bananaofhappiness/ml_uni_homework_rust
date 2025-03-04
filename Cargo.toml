@@ -1,0 +1,29 @@
+[package]
+name = "ml_uni_homework_rust"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+ndarray = "0.16.1"
+num = "0.4.3"
+
+
+[[bin]]
+name = "ndarray_task_1"
+path = "HW01/ndarray/ndarray_task_1.rs"
+
+[[bin]]
+name = "ndarray_task_2"
+path = "HW01/ndarray/ndarray_task_2.rs"
+
+[[bin]]
+name = "ndarray_task_3"
+path = "HW01/ndarray/ndarray_task_3.rs"
+
+[[bin]]
+name = "ndarray_task_4"
+path = "HW01/ndarray/ndarray_task_4.rs"
+
+[[bin]]
+name = "ndarray_task_5"
+path = "HW01/ndarray/ndarray_task_5.rs"
