@@ -22,7 +22,7 @@ fn result_mark(weights: Array1<f32>, marks: Array1<i32>) -> i32 {
 
 
 #[cfg(test)]
-mod test{
+mod task_1{
     use super::*;
     
     #[test]

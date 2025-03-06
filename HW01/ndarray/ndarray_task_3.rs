@@ -27,7 +27,7 @@ fn find_close(arr1: Array1<f64>, arr2: Array1<f64>, precision: f64) -> Array1<u3
 }
 
 #[cfg(test)]
-mod test{
+mod task_3{
     use super::*;
 
     #[test]

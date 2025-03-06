@@ -27,3 +27,23 @@ path = "HW01/ndarray/ndarray_task_4.rs"
 [[bin]]
 name = "ndarray_task_5"
 path = "HW01/ndarray/ndarray_task_5.rs"
+
+[[bin]]
+name = "ndarray_task_6"
+path = "HW01/ndarray/ndarray_task_6.rs"
+
+[[bin]]
+name = "ndarray_task_7"
+path = "HW01/ndarray/ndarray_task_7.rs"
+
+[[bin]]
+name = "ndarray_task_8"
+path = "HW01/ndarray/ndarray_task_8.rs"
+
+[[bin]]
+name = "ndarray_task_9"
+path = "HW01/ndarray/ndarray_task_9.rs"
+
+[[bin]]
+name = "ndarray_task_10"
+path = "HW01/ndarray/ndarray_task_10.rs"

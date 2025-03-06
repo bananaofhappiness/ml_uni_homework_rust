@@ -4,11 +4,11 @@ use num::Num;
 pub type Result<T> = core::result::Result<T, Error>;
 pub type Error = Box<dyn std::error::Error>; // For early dev.
 
-fn main() -> Result<()> {
-    block_matrix(array![[1, 3, 3], [7, 0, 0]]);
+/*
+Напишите функцию, которая составляет блочную матрицу из четырех блоков, где каждый блок - это заданная матрица.
+*/
 
-    Ok(())
-}
+fn main() {}
 
 fn block_matrix<T>(block: Array2<T>) -> Array2<T>
 where T: Num + Clone + std::fmt::Debug
@@ -19,7 +19,7 @@ where T: Num + Clone + std::fmt::Debug
 }
 
 #[cfg(test)]
-mod test{
+mod task_4{
     use super::*;
 
     #[test]

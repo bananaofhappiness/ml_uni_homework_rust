@@ -24,7 +24,7 @@ where T: Num + Clone
 }
 
 #[cfg(test)]
-mod test{
+mod task_2{
     use super::*;
 
     #[test]

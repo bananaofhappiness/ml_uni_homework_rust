@@ -3,6 +3,10 @@ use ndarray::{array, Array, Array2};
 pub type Result<T> = core::result::Result<T, Error>;
 pub type Error = Box<dyn std::error::Error>; // For early dev.
 
+/*
+Напишите функцию, вычисляющую произведение всех ненулевых диагональных элементов на диагонали данной квадратной матрицы.
+*/
+
 fn main() {}
 
 fn diag_prod(matrix: Array2<i32>) -> i32 {
@@ -11,7 +15,7 @@ fn diag_prod(matrix: Array2<i32>) -> i32 {
 }
 
 #[cfg(test)]
-mod test{
+mod task_5{
     use super::*;
 
     #[test]
