@@ -4,8 +4,10 @@ version = "0.1.0"
 edition = "2021"
 
 [dependencies]
+glob = "0.3.2"
 ndarray = "0.16.1"
 num = "0.4.3"
+polars = { version = "0.46.0", features = ["lazy", "describe"] }
 
 
 [[bin]]
@@ -47,3 +49,7 @@ path = "HW01/ndarray/ndarray_task_9.rs"
 [[bin]]
 name = "ndarray_task_10"
 path = "HW01/ndarray/ndarray_task_10.rs"
+
+[[bin]]
+name = "a"
+path = "HW01/polars/a.rs"
