@@ -51,5 +51,5 @@ name = "ndarray_task_10"
 path = "HW01/ndarray/ndarray_task_10.rs"
 
 [[bin]]
-name = "a"
-path = "HW01/polars/a.rs"
+name = "test"
+path = "HW01/polars/test.rs"
